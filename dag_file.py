@@ -23,7 +23,7 @@ dag = DAG(
     schedule_interval=timedelta(days=1),
 )
 
-# creating the first taks in out dag
+# creating the first taks in our dag
 run_etl = PythonOperator(
     task_id='complete_etl',
     python_callable=stock_data,

@@ -10,5 +10,5 @@ In this project, we aim to build a comprehensive pipeline that extracts historic
 - AWS EC2
 
 ### Project Files
-data_extraction.py: Extracts historical stock data and saves it as a CSV file.
-dag_file.py: Defines an Airflow DAG that automates the upload of the CSV file to AWS S3.
+- data_extraction.py: Extracts historical stock data and saves it as a CSV file.
+- dag_file.py: Defines an Airflow DAG that automates the upload of the CSV file to AWS S3.
